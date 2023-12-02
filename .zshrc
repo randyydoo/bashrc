@@ -11,11 +11,11 @@ gcl() {
 }
 
 gcm() {
-    git commit -m "$1"
+    git commit -m "$*"
 }
 
 gcam(){
-    git commit -am "$1"
+    git commit -am "$*"
 }
 
 gcb(){
